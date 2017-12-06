@@ -1,0 +1,22 @@
+.lyric-area{
+    background-color: white;
+    padding: 50px;
+}
+
+.lyric-area p{
+    font-size: 50px;
+}
+
+/* Highlighting
+-----------------------------------------------------------------------------*/
+
+.lyric-area p {
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ddd 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    text-decoration: none;
+    transition: background-position 2s ease-out;
+}
+.lyric-area p:hover {
+    background-position: -99.99% 0;
+}
