@@ -15,6 +15,12 @@ h1{
     font-weight: bold;
 }
 
+.playerIcons{
+    font-size: 30px;
+    color: black;
+    padding-top: 50px;
+}
+
 /* Album Select
 -----------------------------------------------------------------------------*/
 
