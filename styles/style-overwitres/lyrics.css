@@ -5,11 +5,6 @@
     padding-top: 50px;
     overflow: hidden;
 }
-
-.musicplayer{
-    box-shadow: 0px 5px 8px;
-}
-
 /* Highlighting
 -----------------------------------------------------------------------------*/
 
@@ -44,16 +39,4 @@
     100% { top: -15em }
 }
 
-/* Komponents
------------------------------------------------------------------------------*/
 
-.hoveringBox{
-    color: white;
-    background-color: white;
-    z-index: 1;
-    position: fixed;
-    height: 45px;
-    width: 100%;
-    display: block;
-    position: relative;
-}
