@@ -17,14 +17,14 @@ p.feature1red2
 
 h2.feature1black{
     color: black;
-    font-weight:bold;
 
 }
 
 section.feature1
 {
 
-    background-image: url(../eingefügteBilder/Karaoke1.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    url(../eingefügteBilder/Karaoke1.jpg);
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
