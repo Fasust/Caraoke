@@ -2,9 +2,11 @@
 -----------------------------------------------------------------------------*/
 
 
-.musicplayer-control {
+.musicplayer {
     background-color: white;
-
+    width: 100%;
+    padding: 30px;
+    position: relative;
 }
 
 /* Album Select
@@ -12,7 +14,7 @@
 
 .libary__albumSelect{
     background-color: white;
-    padding: 10px;
+    padding: 20px;
 }
 
 .top-buffer{
