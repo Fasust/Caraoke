@@ -16,7 +16,7 @@
     background-position: -0% 0;
     background-size: 200% auto;
 
-    transition: background-position 60s ease-out;
+    transition: background-position 120s ease-out;
 }
 .lyric-text-active {
     background-position: -99.99% 0;
@@ -28,7 +28,7 @@
 
 .marquee {
     position: relative;
-    animation: marquee 30s linear infinite;
+    animation: marquee 40s linear infinite;
 
     animation-play-state: paused;
 }
@@ -36,7 +36,7 @@
 /* Make it move! */
 @keyframes marquee {
     0%   { top:   0em }
-    100% { top: -11em }
+    100% { top: -15em }
 }
 
 /* Komponents
