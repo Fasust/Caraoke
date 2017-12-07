@@ -26,6 +26,9 @@
     color: black;
     padding-top: 50px;
 }
+.progress-bar-custom {
+    background: rgba(105, 105, 105, 1);
+}
 
 /* Album Select
 -----------------------------------------------------------------------------*/
