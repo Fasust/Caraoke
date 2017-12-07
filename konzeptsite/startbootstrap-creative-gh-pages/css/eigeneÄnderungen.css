@@ -16,14 +16,17 @@ p.feature1red2
 }
 
 h2.feature1black{
+    font-weight:bold;
+    font-size: 2rem;
     color: black;
+
 
 }
 
 section.feature1
 {
 
-    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)),
     url(../eingefügteBilder/Karaoke1.jpg);
     background-position: center center;
     -webkit-background-size: cover;
