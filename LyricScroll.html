@@ -10,8 +10,8 @@
 <body>
     <main  class="screen" id="screen">
         <section class="lyrics">
-            <marquee class="lyric-area text-center self-scroling-text" onMouseOut="this.scrollAmount=2" scrollamount="10"                   direction="up" loop="true">
-                <a>
+            <div class="lyric-area text-center">
+                <span class="lyric-text marquee" id="lyric-text">
                     <br> Ay
                     <br> Fonsi, DY
                     <br> Oh, oh no, oh no (ey)
@@ -25,9 +25,14 @@
                     <br> Tú, tú eres el imán y yo soy el metal
                     <br> Me voy acercando y voy armando el plan
                     <br> Sólo con pensarlo se acelera el pulso (oh, yeah)
-                </a>
-            </marquee>
+
+                </span>
+            </div>
+
+            <button onclick="activateLyricAninmation()">Click me</button>
+
         </section>
+
         <section class="musicplayer">
             <img src="..." alt="Music-Pic" class="img-rounded">
             <img src="..." alt="Fav-Pic" class="img-circle">
@@ -42,5 +47,24 @@
         </section>
 
     </main>
+
+    <!--Faust-->
+    <script>
+        var playing = 0;
+        function activateLyricAninmation() {
+
+
+            if(playing){
+                document.getElementById("lyric-text").style.animationPlayState = "paused";
+                playing = 0;
+            }else{
+                document.getElementById("lyric-text").style.animationPlayState = "running";
+                document.getElementById("lyric-text").classList.toggle('lyric-text-active');
+                playing = 1;
+            }
+
+
+        }
+    </script>
 </body>
 </html>

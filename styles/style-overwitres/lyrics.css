@@ -1,21 +1,42 @@
 .lyric-area{
     background-color: white;
     padding: 50px;
-}
 
-.lyric-area a{
-    font-size: 50px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
 }
 
 /* Highlighting
 -----------------------------------------------------------------------------*/
 
-.lyric-area a{
+.lyric-text {
+    font-size: 50px;
+
     background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ddd 50%);
     background-position: -0% 0;
     background-size: 200% auto;
-    transition: background-position 20s ease-out;
+
+    transition: background-position 60s ease-out;
 }
-.lyric-area a:hover {
+.lyric-text-active {
     background-position: -99.99% 0;
+}
+
+/* Scrolling
+-----------------------------------------------------------------------------*/
+
+
+.marquee {
+    top: 6em;
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 30s linear infinite;
+    animation-play-state: paused;
+}
+
+/* Make it move! */
+@keyframes marquee {
+    0%   { top:   8em }
+    100% { top: -11em }
 }
