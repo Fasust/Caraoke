@@ -1,7 +1,8 @@
+
 .lyric-area{
     background-color: white;
-    overflow: hidden;
-    height: 500px;
+    height: 800px;
+    padding-top: 50px;
 }
 
 /* Highlighting
@@ -9,12 +10,13 @@
 
 .lyric-text {
     font-size: 50px;
+    color: black;
 
     background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ddd 50%);
     background-position: -0% 0;
     background-size: 200% auto;
 
-    transition: background-position 60s ease-out;
+    transition: background-position 300s ease-out;
 }
 .lyric-text-active {
     background-position: -99.99% 0;
@@ -26,13 +28,27 @@
 
 .marquee {
     position: relative;
-    animation: marquee 30s linear infinite;
+    animation: marquee 70s linear infinite;
 
     animation-play-state: paused;
 }
 
 /* Make it move! */
 @keyframes marquee {
-    0%   { top:   1em }
-    100% { top: -11em }
+    0%   { top:   0em }
+    100% { top: -15em }
+}
+
+/* Komponents
+-----------------------------------------------------------------------------*/
+
+.hoveringBox{
+    color: white;
+    background-color: white;
+    z-index: 1;
+    position: fixed;
+    height: 45px;
+    width: 100%;
+    display: block;
+    position: relative;
 }

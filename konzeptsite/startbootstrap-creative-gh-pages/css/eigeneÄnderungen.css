@@ -1,6 +1,20 @@
-h2.feature1color
+
+
+
+h2.feature1red
 {
-    color: red;
+    color: #e82126;
+}
+
+p.feature1red2
+{
+    color: #e82126;
+}
+
+h2.feature1black{
+    color: black;
+    font-weight:bold;
+
 }
 
 section.feature1
