@@ -3,6 +3,7 @@
     background-color: white;
     height: 800px;
     padding-top: 50px;
+    overflow: hidden;
 }
 
 /* Highlighting
