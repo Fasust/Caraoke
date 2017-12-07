@@ -10,24 +10,39 @@
 <body>
     <main  class="screen" id="screen">
         <section class="lyrics">
-            <marquee class="lyric-area text-center self-scroling-text" onMouseOut="this.scrollAmount=2" scrollamount="10"                   direction="up" loop="true">
-                <a>
-                    <br> Ay
-                    <br> Fonsi, DY
-                    <br> Oh, oh no, oh no (ey)
-                    <br> Hey, yeah, diri-diri-diriridi, Daddy, go!
-                    <br>
-                    <br> Sí, sabes que ya llevo un rato mirándote
-                    <br> Tengo que bailar contigo hoy (DY)
-                    <br> Vi que tu mirada ya estaba llamándome
-                    <br> Muéstrame el camino, que yo voy (oh)
-                    <br>
-                    <br> Tú, tú eres el imán y yo soy el metal
-                    <br> Me voy acercando y voy armando el plan
-                    <br> Sólo con pensarlo se acelera el pulso (oh, yeah)
-                </a>
-            </marquee>
+            <div class="lyric-area text-center">
+                <span class="lyric-text marquee" id="lyric-text">
+                   <br>Well I heard there was a secret chord
+                   <br>That David played and it pleased the Lord
+                   <br>But you don't really care for music, do you?
+                   <br>Well it goes like this: the fourth, the fifth
+                   <br>The minor fall and the major lift
+                   <br>The baffled king composing Hallelujah
+                     <br>
+                   <br>Hallelujah, Hallelujah, Hallelujah, Hallelujah
+                     <br>
+                   <br>Your faith was strong but you needed proof
+                   <br>You saw her bathing on the roof
+                   <br>Her beauty and the moonlight overthrew you
+                   <br>She tied you to her kitchen chair
+                   <br>She broke your throne and she cut your hair
+                   <br>And from your lips she drew the Hallelujah
+                     <br>
+                   <br>Hallelujah, Hallelujah, Hallelujah, Hallelujah
+                     <br>
+                   <br>Baby I've been here before
+                   <br>I've seen this room and I've walked this floor (you know)
+                   <br>I used to live alone before I knew you
+                   <br>And I've seen your flag on the marble arch
+                   <br>And love is not a victory march
+                   <br>It's a cold and it's a broken Hallelujah
+                </span>
+            </div>
+
+            <button onclick="activateLyricAninmation()">Play</button>
+
         </section>
+
         <section class="musicplayer">
             <div class="row">
                 <div class="col-md-1">
@@ -61,5 +76,9 @@
             </div>
         </section>
     </main>
+
+    <!--Adding Scripts-->
+    <script src="scripts/lyricScripts/animationPause.js"></script>
+
 </body>
 </html>
