@@ -6,11 +6,18 @@
     <link rel="stylesheet" href="styles/generated/screen.css">
     <link rel="stylesheet" href="styles/style-overwitres/lyrics.css">
     <link rel="stylesheet" href="styles/style-overwitres/musicplayer.css">
-    <title>Title</title>
+    <link rel="stylesheet" href="styles/style-overwitres/globalOverwrites.css">
+
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <title>Carakoke</title>
 </head>
 <body>
     <main  class="screen" id="screen">
         <section class="lyrics">
+            <div class="hoveringBox"></div>
             <div class="lyric-area text-center">
                 <span class="lyric-text marquee" id="lyric-text">
                    <br>Well I heard there was a secret chord
@@ -39,6 +46,7 @@
                    <br>It's a cold and it's a broken Hallelujah
                 </span>
             </div>
+            <div class="hoveringBox"></div>
 
             <button onclick="activateLyricAninmation()">Play</button>
 
@@ -80,7 +88,12 @@
         </section>
 
         <section class="song-library">
-
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+            </div>
         </section>
     </main>
 
