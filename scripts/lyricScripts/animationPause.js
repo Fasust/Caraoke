@@ -1,6 +1,6 @@
 
 var playing = 0;
-
+var width = 1;
 function activateLyricAninmation() {
 
     if(playing){
@@ -28,10 +28,10 @@ function activateLyricAninmation() {
 
 function progBarMove() {
     var progBar = document.getElementById("progBar");
-    var width = 1;
+
     var id = setInterval(partialFrame, 150);
     function partialFrame() {
-        if (width >= 100) {
+        if (playing == 0) {
             clearInterval(id);
         } else {
             width+=0.1;
