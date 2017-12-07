@@ -1,5 +1,9 @@
 
-
+section.introduction
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 h2.feature1red
 {
@@ -19,6 +23,7 @@ h2.feature1black{
 
 section.feature1
 {
+
     background-image: url(../eingefügteBilder/Karaoke1.jpg);
     background-position: center center;
     -webkit-background-size: cover;
