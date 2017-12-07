@@ -1,7 +1,12 @@
 h2.feature1color
 {
-    font-weight:bold;
     color: red;
+}
+
+h2.feature1black{
+    color: black;
+    font-weight:bold;
+
 }
 
 section.feature1
