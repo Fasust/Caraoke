@@ -19,9 +19,10 @@ h2.feature1black{
     font-weight:bold;
     font-size: 2rem;
     color: black;
-
-
 }
+
+
+
 
 section.feature1
 {
@@ -44,4 +45,28 @@ section.feature2
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+
+
+h4.projektRot
+{
+    color: #e82126;
+}
+
+h3.projektRot
+{
+    color: #e82126;
+}
+
+h2.projektRot
+{
+
+    color: #e82126;
+}
+
+div.ProjektUndertext
+{
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
