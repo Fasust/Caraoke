@@ -1,4 +1,14 @@
-h2.feature1
+h2.feature1color
 {
     color: red;
+}
+
+section.feature1
+{
+    background-image: url(../eingefügteBilder/Karaoke1.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
