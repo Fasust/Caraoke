@@ -1,0 +1,78 @@
+
+section.introduction
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2.feature1red
+{
+    color: #e82126;
+}
+
+p.feature1red2
+{
+    color: #e82126;
+}
+
+h2.feature1black{
+    font-weight:bold;
+    font-size: 2rem;
+    color: black;
+}
+
+
+
+
+section.feature1
+{
+
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)),
+    url(../eingefügteBilder/Karaoke1.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+section.feature2
+{
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)),
+    url(../eingefügteBilder/Karaoke2.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+h4.projektRot
+{
+    color: #e82126;
+}
+
+h3.projektRot
+{
+    color: #e82126;
+}
+
+h2.projektRot
+{
+
+    color: #e82126;
+}
+
+div.ProjektUndertext
+{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+h3.projektPB
+{
+    padding-top: 20px;
+
+}
