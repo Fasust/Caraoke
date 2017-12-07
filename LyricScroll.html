@@ -6,17 +6,11 @@
     <link rel="stylesheet" href="styles/generated/screen.css">
     <link rel="stylesheet" href="styles/style-overwitres/lyrics.css">
     <link rel="stylesheet" href="styles/style-overwitres/musicplayer.css">
-    <link rel="stylesheet" href="styles/style-overwitres/globalOverwrites.css">
-
-    <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-    <title>Carakoke</title>
+    <title>Title</title>
 </head>
 <body>
     <main  class="screen" id="screen">
         <section class="lyrics">
-            <div class="hoveringBox"></div>
             <div class="lyric-area text-center">
                 <span class="lyric-text marquee" id="lyric-text">
                    <br>Well I heard there was a secret chord
@@ -43,36 +37,15 @@
                    <br>And I've seen your flag on the marble arch
                    <br>And love is not a victory march
                    <br>It's a cold and it's a broken Hallelujah
-                         <br>
-                   <br>Hallelujah, Hallelujah, Hallelujah, Hallelujah
-                     <br>
-                   <br> Baby I've been here before
-                   <br> I've seen this room and I've walked this floor (you know)
-                   <br> I used to live alone before I knew you
-                   <br> And I've seen your flag on the marble arch
-                   <br> And love is not a victory march
-                   <br> It's a cold and it's a broken Hallelujah
-                     <br>
-                   <br>Hallelujah, Hallelujah, Hallelujah, Hallelujah
-                     <br>
-                   <br> There was a time when you let me know
-                   <br> What's really going on below
-                   <br> But now you never show that to me, do you?
-                   <br> But remember when I moved in you
-                   <br> And the holy dove was moving too
-                   <br> And every breath we drew was Hallelujah
-
-
                 </span>
             </div>
-            <div class="hoveringBox"></div>
 
             <button onclick="activateLyricAninmation()">Play</button>
 
         </section>
 
         <section class="musicplayer">
-            <div class="row">
+            <div class="musicplayer-control row">
                 <div class="col-md-1">
                     <img src="..." alt="Music-Pic" class="img-rounded">
                 </div>
@@ -88,20 +61,26 @@
                     </div>
                 </div>
                 <div class="col-md-1">
-                    <button class="btn btn-default">previous</button></div>
-                <div class="col-md-1">
-                    <button class="btn btn-default">Play_Pause</button>
+                    <span class="glyphicon glyphicon-step-backward" aria-hidden="true"></span>
+                    test
                 </div>
                 <div class="col-md-1">
-                    <button class="btn btn-default">next</button>
+                    <span class="glyphicon glyphicon-play" onclick="activateLyricAninmation()"></span>test
                 </div>
                 <div class="col-md-1">
-                    <button class="btn btn-default">search</button>
+                    <span class="glyphicon glyphicon-step-forward"></span>
                 </div>
                 <div class="col-md-1">
-                    <button class="btn btn-default">collapse</button>
+                    <span class="glyphicon glyphicon-search"></span>
+                </div>
+                <div class="col-md-1">
+                    <span class="glyphicon glyphicon-eject" aria-hidden="true"></span>
                 </div>
             </div>
+        </section>
+
+        <section class="song-library">
+
         </section>
     </main>
 
