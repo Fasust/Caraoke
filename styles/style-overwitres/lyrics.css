@@ -1,7 +1,8 @@
+
 .lyric-area{
     background-color: white;
     overflow: hidden;
-    height: 500px;
+    height: 800px;
 }
 
 /* Highlighting
@@ -9,6 +10,7 @@
 
 .lyric-text {
     font-size: 50px;
+    color: black;
 
     background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ddd 50%);
     background-position: -0% 0;
@@ -33,6 +35,17 @@
 
 /* Make it move! */
 @keyframes marquee {
-    0%   { top:   1em }
+    0%   { top:   0em }
     100% { top: -11em }
+}
+
+/* Komponents
+-----------------------------------------------------------------------------*/
+
+.hoveringBox{
+    color: white;
+    background-color: white;
+    position: absolute;
+    height: 30px;
+    width: 1000px;
 }
