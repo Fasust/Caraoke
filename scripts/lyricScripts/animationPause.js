@@ -1,6 +1,7 @@
 
 var playing = 0;
 var width = 1;
+//var timePlayed = 0;
 function activateLyricAninmation() {
 
     if(playing){
@@ -39,3 +40,16 @@ function progBarMove() {
         }
     }
 }
+
+/*function timeCount(){
+    var counter = document.getElementsById("timeBar");
+    var id = setInterval(add,60);
+    function add(){
+        if(playing == 0){
+            clearInterval(id);
+        } else {
+            timePlayed += 5;
+        }
+    }
+}
+*/
