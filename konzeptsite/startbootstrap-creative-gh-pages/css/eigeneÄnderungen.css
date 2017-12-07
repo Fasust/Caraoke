@@ -1,9 +1,14 @@
 
 
 
-h2.feature1color
+h2.feature1red
 {
-    color: red;
+    color: #e82126;
+}
+
+p.feature2red
+{
+    color #e82126;
 }
 
 h2.feature1black{
