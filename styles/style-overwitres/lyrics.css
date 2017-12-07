@@ -1,8 +1,8 @@
 
 .lyric-area{
     background-color: white;
-    overflow: hidden;
     height: 800px;
+    padding-top: 50px;
 }
 
 /* Highlighting
@@ -16,7 +16,7 @@
     background-position: -0% 0;
     background-size: 200% auto;
 
-    transition: background-position 120s ease-out;
+    transition: background-position 300s ease-out;
 }
 .lyric-text-active {
     background-position: -99.99% 0;
@@ -28,7 +28,7 @@
 
 .marquee {
     position: relative;
-    animation: marquee 40s linear infinite;
+    animation: marquee 70s linear infinite;
 
     animation-play-state: paused;
 }
@@ -45,7 +45,10 @@
 .hoveringBox{
     color: white;
     background-color: white;
-    position: absolute;
-    height: 30px;
-    width: 1000px;
+    z-index: 1;
+    position: fixed;
+    height: 45px;
+    width: 100%;
+    display: block;
+    position: relative;
 }
