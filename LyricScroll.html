@@ -6,7 +6,12 @@
     <link rel="stylesheet" href="styles/generated/screen.css">
     <link rel="stylesheet" href="styles/style-overwitres/lyrics.css">
     <link rel="stylesheet" href="styles/style-overwitres/musicplayer.css">
-    <title>Title</title>
+    <link rel="stylesheet" href="styles/style-overwitres/globalOverwrites.css">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <title>Carakoke</title>
 </head>
 <body>
     <main  class="screen" id="screen">
@@ -45,7 +50,7 @@
         </section>
 
         <section class="musicplayer">
-            <div class="musicplayer-control row">
+            <div class="row">
                 <div class="col-md-1">
                     <img src="..." alt="Music-Pic" class="img-rounded">
                 </div>
@@ -61,19 +66,18 @@
                     </div>
                 </div>
                 <div class="col-md-1">
-                    <img src="images/musicplayer-pictures/003-previous-track.svg">
+                    <button class="btn btn-default">previous</button></div>
+                <div class="col-md-1">
+                    <button class="btn btn-default">Play_Pause</button>
                 </div>
                 <div class="col-md-1">
-                    <img src="images/musicplayer-pictures/005-arrows.svg" onclick="activateLyricAninmation()">
+                    <button class="btn btn-default">next</button>
                 </div>
                 <div class="col-md-1">
-                    <img src="images/musicplayer-pictures/004-next-track-button.svg">
+                    <button class="btn btn-default">search</button>
                 </div>
                 <div class="col-md-1">
-                    <img src="images/musicplayer-pictures/002-search.svg">
-                </div>
-                <div class="col-md-1">
-                    <img src="images/musicplayer-pictures/001-upwards-arrow.svg">
+                    <button class="btn btn-default">collapse</button>
                 </div>
             </div>
         </section>
