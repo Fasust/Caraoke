@@ -12,8 +12,13 @@
 .ttl{
     float: right;
 }
-h1{
+.span-bold{
+    font-size: 24px;
     font-weight: bold;
+}
+.glyph-span{
+    font-size: 20px;
+    padding: 0 0 0 5px;
 }
 
 .playerIcons{
