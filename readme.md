@@ -1,14 +1,16 @@
-# Beispielhafte Projektstruktur für WBA1
-Es gibt unzählige Varianten, wie die Datei- und Verzeichnisstruktur für ein Web-Projekt angelegt werden kann. Dies ist eine Möglichkeit. Für Datei- und Verzeichnsnamen gilt: nur Zahlen, Buchstaben, der Unterstrich und der Bindestrich. Verwenden Sie keine Umlaute, Sonderzeichen und Leerstellen. Hier ein paar Erläuterungen:
+# Caraoke
+## Ein Prototypen für ein Auto - Karaoke System entwickelt.
+### Ein Projekt von Sebastian Faust, Arthur Tissen, Caroline Jungjohann & Viktoria Müller
+#### Im Rahmen des Web Basierte Anwendungen <a href= "https://www.youtube.com/watch?v=Botu9MGi_AE">Hackathon 2017</a> der Th Köln.
 
-## images
-Hier liegen alle Bilder, die projektübergreifend Verwendung finden, z.B. Logo, Icons, Hintergründe, etc.
+###### Thema: Web Basierte Anwendungen - Ein Tesla App Prototyp
 
-## lib
-In diesem Verzeichnis werden alle externen Libraries, Framesworks und Helferlein gespeichert. Hier liegen also nur Files oder Verzeichnisse, die zwar ins Projekt eingebunden, die aber nicht bearbeitet werden.
 
-## scripts
-Hier liegen die eigenen Javascript Dateien.
+Das System wurde Abgesehen von der Readme seit dem Abgabezeitpunkt des Projektes nicht mehr verändert. Es ist also noch in einem Absoluten Prototypen Zustand.
+Bei dem Projekt wurde Hauptsächlich Focus auf das Aussehen des Endprodukts Gelegt und weniger auf die Tatsächliche funktionalität.
 
-## styles 
-Dieses Verzeichnis enthält alle CSS Dateien. Hierbei kann es hilfreich sein die Dateien zu nummerieren, damit sie eine sinnvolle Reihenfolge haben. Sinnvoll heißt: vom Allgemeinen zum Speziellen.
+Für uns war diese Projekt eine sehr gute möglichkeit unser gelerntes wissen von html, css und javascript zu verwenden um in einem kurzen zeitraum einen vorzeigbaren Prototypen zu entwickeln.
+
+Unser Dokumentation können sie sich <a href= "https://fasust.github.io/wba-challenge-2017-team12-avarices/">hier</a> anschauen.
+
+
