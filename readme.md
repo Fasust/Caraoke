@@ -14,8 +14,8 @@ Für uns war diese Projekt eine sehr gute möglichkeit unser gelerntes wissen vo
 Unser Dokumentation können sie sich <a href= "https://fasust.github.io/wba-challenge-2017-team12-avarices/">hier</a> anschauen.
 
 ## Screens
+|Idel|Running|
+|---|---|
+|![](https://github.com/Fasust/wba-challenge-2017-team12-avarices/blob/master/material/idel.PNG)|![](https://github.com/Fasust/wba-challenge-2017-team12-avarices/blob/master/material/running.PNG)|
 
-![](https://github.com/Fasust/wba-challenge-2017-team12-avarices/blob/master/material/idel.PNG)
 
-
-![](https://github.com/Fasust/wba-challenge-2017-team12-avarices/blob/master/material/running.PNG)
