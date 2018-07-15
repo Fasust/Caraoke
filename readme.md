@@ -6,6 +6,8 @@
 ###### Thema: Web Basierte Anwendungen - Ein Tesla App Prototyp
 ###### Zeit: 10 Stunden
 
+<a href="https://th-koeln.github.io/mi-bachelor-wba1/challenge-2017/" >Aufgabenstellung</a>
+
 
 Das System wurde Abgesehen von der Readme seit dem Abgabezeitpunkt des Projektes nicht mehr verändert. Es ist also noch in einem Absoluten Prototypen Zustand.
 Bei dem Projekt wurde Hauptsächlich Focus auf das Aussehen des Endprodukts Gelegt und weniger auf die Tatsächliche funktionalität.
