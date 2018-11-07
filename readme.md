@@ -1,5 +1,5 @@
 # Caraoke
-## Ein Prototypen für ein Auto - Karaoke System.
+## Ein Prototyp für ein Auto - Karaoke System.
 ### Ein Projekt von Sebastian Faust, Arthur Tissen, Caroline Jungjohann & Viktoria Müller
 #### Im Rahmen des Web Basierte Anwendungen <a href= "https://www.youtube.com/watch?v=Botu9MGi_AE">Hackathon 2017</a> der Th Köln.
 
