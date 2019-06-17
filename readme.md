@@ -14,7 +14,7 @@ Bei dem Projekt wurde Hauptsächlich Focus auf das Aussehen des Endprodukts Gele
 
 Für uns war diese Projekt eine sehr gute möglichkeit unser gelerntes wissen von html, css und javascript zu verwenden um in einem kurzen zeitraum einen vorzeigbaren Prototypen zu entwickeln.
 
-Unser Dokumentation können sie sich <a href= "https://fasust.github.io/Caraoke/">hier</a> anschauen.
+📄 Unser Dokumentation können sie sich <a href= "https://fasust.github.io/Caraoke/">hier</a> anschauen.
 
 ## Screens
 |Idel|Running|
